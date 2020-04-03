@@ -3,6 +3,7 @@ package com.example.hanoi.domain;
 import com.example.hanoi.enums.Gender;
 import com.example.hanoi.enums.Platform;
 
+import lombok.Builder;
 import lombok.Value;
 
 /**
@@ -10,6 +11,7 @@ import lombok.Value;
  */
 
 @Value
+@Builder
 public class Profile {
 
     String name;

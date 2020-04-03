@@ -1,5 +1,6 @@
 package com.example.hanoi.domain;
 
+import lombok.Builder;
 import lombok.Value;
 
 /**
@@ -7,6 +8,7 @@ import lombok.Value;
  */
 
 @Value
+@Builder
 public class States {
 
     long subscribers;

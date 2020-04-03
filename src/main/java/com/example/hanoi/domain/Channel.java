@@ -9,8 +9,10 @@ import lombok.Value;
 /**
  * @author xuhanghe
  */
+
 @Value
-public class MediaMaker {
+@Builder
+public class Channel {
 
     String id;
 

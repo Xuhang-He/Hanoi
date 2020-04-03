@@ -14,6 +14,7 @@ import lombok.Value;
  */
 
 @Value
+@Builder
 public class Video {
 
     String id;
