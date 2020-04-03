@@ -1,5 +1,8 @@
-package com.example.hanoi;
+package com.example.hanoi.domain;
 
+/**
+ * @author xuhanghe
+ */
 public class Greeting {
 
 	private final long id;

@@ -1,4 +1,6 @@
-package com.example.hanoi;
+package com.example.hanoi.controller;
+
+import com.example.hanoi.domain.Greeting;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -6,6 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author xuhanghe
+ */
 @RestController
 public class GreetingController {
 
