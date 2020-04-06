@@ -9,7 +9,7 @@ import lombok.Value;
 
 @Value
 @Builder
-public class States {
+public class Stats {
 
     long subscribers;
 

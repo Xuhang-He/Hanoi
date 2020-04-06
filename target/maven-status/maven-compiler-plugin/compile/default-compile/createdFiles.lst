@@ -1,0 +1,16 @@
+com/example/hanoi/enums/Platform.class
+com/example/hanoi/domain/Channel$ChannelBuilder.class
+com/example/hanoi/domain/Profile$ProfileBuilder.class
+com/example/hanoi/domain/Video$VideoBuilder.class
+com/example/hanoi/Application.class
+com/example/hanoi/domain/Stats$StatsBuilder.class
+com/example/hanoi/domain/Video.class
+com/example/hanoi/controller/ChannelController.class
+com/example/hanoi/domain/Channel.class
+com/example/hanoi/domain/Profile.class
+com/example/hanoi/service/impl/ChannelServiceImpl.class
+com/example/hanoi/service/ChannelService.class
+com/example/hanoi/domain/Stats.class
+com/example/hanoi/repository/ChannelRepository.class
+com/example/hanoi/enums/Language.class
+com/example/hanoi/enums/Gender.class

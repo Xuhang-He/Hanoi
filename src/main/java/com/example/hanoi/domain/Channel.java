@@ -18,7 +18,7 @@ public class Channel {
 
     Profile profile;
 
-    States states;
+    Stats stats;
 
     @Builder.Default
     List<Video> videos = new ArrayList<>();

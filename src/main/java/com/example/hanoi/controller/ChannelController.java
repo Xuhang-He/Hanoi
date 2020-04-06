@@ -3,6 +3,7 @@ package com.example.hanoi.controller;
 import com.example.hanoi.domain.Channel;
 import com.example.hanoi.service.ChannelService;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,6 +25,7 @@ public class ChannelController {
     private final ChannelService channelService;
 
     @GetMapping("/channel")
+    @CrossOrigin(origins = "http://localhost:3000")
     public Channel getChannel(@RequestParam(value = "id") String id) {
         return channelService.getChannel(id);
     }
